@@ -304,7 +304,9 @@ for(j in 1:nsteps){
 hello = linspace(0,31,1448)
 
 datacomparison = data.frame("day"=hello[245:435], "E"=finalE[245:435], 
-                            "PercE"=-finalPercE[245:435], "Sapflow"=finalSapflow[245:435])
+			    "PercE"=-finalPercE[245:435], "Sapflow"=finalSapflow[245:435])
+
+print('')
 
 # plot(hello,finalE)
 # plot(hello,finalstorageflowmmol)
